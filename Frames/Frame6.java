@@ -8,7 +8,7 @@ import java.awt.image.BufferedImage;
 
 public class Frame6 {
     public static void main(String[] args) {
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame("3D Render Engine");
         Container pane = frame.getContentPane();
         pane.setLayout(new BorderLayout());
 

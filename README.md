@@ -45,6 +45,16 @@ Ensures correct depth rendering (no overlapping glitches).
 Surface brightness calculated using normal direction:
 brightness = |normal.z|
 
+
+## Frame1
+The first frame demonstrates basic rotation of a cube in the X-Y plane. It sets up a simple window and renders a rotating cube using Swing's painting capabilities.
+![alt text](frame1.png)
+
+## Frame2
+The second frame extends the rotation capabilities and includes improvements to the rendering pipeline.
+
+
+
 ## 🛠️ Tech Stack
 - Java
 - Swing (Rendering UI)
