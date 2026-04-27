@@ -9,17 +9,16 @@ This project demonstrates how real-time 3D graphics work internally — includin
 ```
 3D Engine/
 │
-├── src/
-│   └── engine3d/
-│       ├── Main.java          → Entry point of application
-│       ├── DemoViewer.java    → Swing panel for rendering
-│       ├── Renderer.java      → Core rendering engine
-│       ├── Vertex.java        → 3D point representation
-│       ├── Triangle.java      → 3D triangle mesh unit
-│       ├── Matrix3.java       → 3x3 transformation matrix
-│       └── Utils.java         → Lighting & mesh utilities
+├── Frames/
+│   ├── Frame1.java   → Rotation in X-Y direction
+│   ├── Frame2.java   → Extended rotation + improvements
+│   ├── Frame3.java   → Projection / 3D depth handling
+│   ├── Frame4.java   → Lighting implementation
+│   ├── Frame5.java   → Clipping / edge handling
+│   └── Frame6.java   → Final integrated engine version
 │
-└── out/ (generated after compile)
+├── .gitignore
+└── README.md
 ```
 
 ## ⚙️ How It Works
