@@ -3,7 +3,7 @@
 A lightweight software-based 3D rendering engine built completely in Java using Swing and pure math (no OpenGL / no libraries).
 This project demonstrates how real-time 3D graphics work internally — including transformation, rasterization, and lighting.
 
-
+``
 3D Engine/
 │
 ├── src/
@@ -17,7 +17,7 @@ This project demonstrates how real-time 3D graphics work internally — includin
 │       └── Utils.java        → Lighting & mesh utilities
 │
 └── out/ (generated after compile)
-
+``
 ## ⚙️ How It Works
 
 1. Scene Setup
