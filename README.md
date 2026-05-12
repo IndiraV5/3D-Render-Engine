@@ -79,4 +79,3 @@ The final frame integrates all previous features and demonstrates sphere renderi
 ## 🛠️ Tech Stack
 - Java
 - Swing (Rendering UI)
-- Custom 3D Math Engine
